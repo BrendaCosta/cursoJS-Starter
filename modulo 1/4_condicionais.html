@@ -1,0 +1,44 @@
+<httml> 
+    <head>
+        <title>Curso Javascript</title>
+    </head>
+    <body>      
+        
+        <!--USANDO IF E ELSE-->
+        
+        <!-- <script>
+                 function retornaSexo(sexo){
+                     if(sexo==="M" || sexo === "m" ){
+                         return 'Masculino';
+                         //a || serve como um ou, assim posso saber se a pessoa digitou uma letra maiuscula ou minuscula
+                     }else if (sexo ==="F" || sexo === "f" ){
+                        return 'Feminino';
+                     }else{
+                         return 'Outro';
+                     }
+                 }    
+                 var resultado = retornaSexo("f");
+                 console.log(resultado);
+        </script> -->
+
+        <!--USANDO SWITCH CASE-->
+        <script>
+            function retornaSexo (sexo){
+                switch (sexo){
+                    case "M": 
+                        return "Masculino";
+                    case "F":
+                        return "Feminino";
+                    default: 
+                        return "Outro";
+                }
+            }
+            var resultado = retornaSexo ("F");
+            console.log(resultado); 
+        </script>
+
+
+
+
+    </body>
+</httml>
